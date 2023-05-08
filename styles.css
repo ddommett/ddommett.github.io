@@ -1,0 +1,60 @@
+/*************************************************
+Save with a name ending in .css such as styles.css
+*************************************************/
+h1 {
+    padding: 10px;
+    margin-top:0;
+    margin-bottom:0;
+    }
+
+.h1_link {
+    color: blue;
+    padding: 10px;
+    margin-top:0;
+    margin-bottom:0;
+    }
+
+.wrapper {
+  display: flex;
+}
+
+.banner {
+  display: flex;
+}
+.push {
+    margin-left: auto;
+}
+
+.h_line {
+    border-bottom: 6px solid rgb(80, 80, 78);
+    //width: 300px;
+    margin: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
